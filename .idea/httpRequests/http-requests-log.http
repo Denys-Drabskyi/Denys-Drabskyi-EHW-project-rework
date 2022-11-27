@@ -1,0 +1,36 @@
+POST http://localhost:8080/user
+
+<> 2022-11-25T222256.500.json
+
+###
+
+POST http://localhost:8080/user
+
+<> 2022-11-25T222107.500.json
+
+###
+
+GET http://localhost:8080/periodicals
+
+<> 2022-11-24T160644.500.json
+
+###
+
+GET http://localhost:8080/periodicals
+
+<> 2022-11-24T160633.500.json
+
+###
+
+GET http://localhost:8080/periodicals
+
+<> 2022-11-20T183224.200.json
+
+###
+
+GET http://localhost:8080/periodicals
+
+<> 2022-11-16T225817.200.json
+
+###
+

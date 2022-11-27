@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Denys-Drabskyi-EHW-project-rework-main.iml" filepath="$PROJECT_DIR$/.idea/Denys-Drabskyi-EHW-project-rework-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/periodicals/periodicals.iml" filepath="$PROJECT_DIR$/periodicals/periodicals.iml" />
+    </modules>
+  </component>
+</project>
