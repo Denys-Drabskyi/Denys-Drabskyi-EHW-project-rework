@@ -8,11 +8,11 @@ import org.mapstruct.Mapper;
 import org.springframework.stereotype.Component;
 
 @Mapper
-@Component
 public interface UserMapper {
 
     UserDto toUserDto(User user);
 
     User toUser(CreateUserDto userDto);
+    User toUser(UserDto userDto);
     UserDto toUserDto(CreateUserDto userDto);
 }

@@ -22,6 +22,8 @@ public interface UserRepository extends JpaRepository<User, Long> {
     @Query("UPDATE User u set u.banned = 1")
     void banUser (User u);
 
+    void deleteUserById (Long id);
+
 
 
 //    User getUserByLogin(String login);

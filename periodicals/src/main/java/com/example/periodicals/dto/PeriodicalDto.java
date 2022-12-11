@@ -9,7 +9,7 @@ import java.util.ArrayList;
 @Data
 @Builder
 public class PeriodicalDto {
-    private int id;
+    private long id;
     private String name;
     private int price;
     private ArrayList<Theme> themes;

@@ -6,8 +6,10 @@ import java.util.ArrayList;
 
 
 public interface PeriodicalService {
-    ArrayList<PeriodicalDto> getPeriodicals();
-    PeriodicalDto getPeriodical();
-    PeriodicalDto editPeriodical();
-    void deletePeriodical();
+
+    PeriodicalDto getPeriodicalById(long id);
+
+    PeriodicalDto createPeriodical(PeriodicalDto periodicalDto);
+
+    PeriodicalDto editPeriodical(long id, PeriodicalDto periodicalDto);
 }
